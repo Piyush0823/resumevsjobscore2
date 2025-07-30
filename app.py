@@ -1,7 +1,7 @@
 import streamlit as st
-from matcher.preprocessing import preprocess
-from matcher.similarity import get_similarity_score
-from matcher.keywords import extract_matching_keywords
+from matcher_preprocessing import preprocess
+from matcher_similarity import get_similarity_score
+from matcher_keywords import extract_matching_keywords
 
 st.title("Resume vs Job Description Matcher & Score Generator")
 
