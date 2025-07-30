@@ -5,7 +5,7 @@ from matcher_keywords import extract_matching_keywords
 
 st.title("Resume vs Job Description Matcher & Score Generator")
 
-resume_text = st.text_area("Paste your Resume", height=200)
+resume_text = st.text_area("Paste your Resume(skills)", height=200)
 jd_text = st.text_area("Paste Job Description", height=200)
 
 if st.button("Match & Score"):
