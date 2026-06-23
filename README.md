@@ -1,4 +1,4 @@
-# Resume vs Job Description Matcher & Score Generator system
+# Resume vs Job Description Matcher & Score Generator
 
 A simple Streamlit app to match resume content against a job description using TF-IDF and cosine similarity, highlighting common keywords.
 
